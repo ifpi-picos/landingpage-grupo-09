@@ -4,22 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <form>
-      <label>Nome</label>
-      <input type="text" name="f_nome" />
+    <div class="container">
+      <form>
+        <label class="form-label">Nome</label>
+        <input class="form-control" type="text" name="f_nome" />
 
-      <label>Telefone</label>
-      <input type="text" name="f_telefone" />
+        <label class="form-label">Telefone</label>
+        <input class="form-control" type="text" name="f_telefone" />
 
-      <label>Email</label>
-      <input type="email" name="f_email" />
+        <label class="form-label">Email</label>
+        <input class="form-control" type="email" name="f_email" />
 
-      <label>Motivo de interesse</label>
-      <input type="text" name="f_motivo" />
+        <label class="form-control">Motivo de interesse</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Select</option>
+          <option value="1">Obter mais informações sobre o projeto</option>
+          <option value="2">Contratar o serviço</option>
+        </select>
 
-      <button type="Enviar">Enviar</button>
-    </form>
+        <button type="Enviar">Enviar</button>
+      </form>
+    </div>
   </body>
 </html>

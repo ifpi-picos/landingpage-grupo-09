@@ -59,8 +59,23 @@ body {
 .what-do-we-do {
     width: 55%;
     color: #75C2B0;
-    font-size: 20px;
+   font-size: 20px;
+
+}
+
+.container-card{
+    background-color: #FEC069;
+}
+.card-img{
+    width: 472px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.container-card{
+   width: 55%;
     
-
-
+}
+.texto-card{
+    color: #ffffff;
 }

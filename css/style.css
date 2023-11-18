@@ -1,81 +1,100 @@
 body {
   width: 100%;
-  
 }
 
 .navbar {
-    background-color:  #75C2B0;;
-   
+  background-color: #75c2b0;
 }
 .nav {
-    gap: 1rem;
-    color: #fff;
-    align-items: flex-end;
-    font-size: 20px;
+  gap: 1rem;
+  color: #fff;
+  align-items: flex-end;
+  font-size: 20px;
 }
 .nav-item {
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-item:hover {
-    color: #FEC069;
+  color: #fec069;
 }
 .logo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 .logo > img {
-    max-width: 100%;
-    height: auto;
-    height: 50px;
-    border-radius: 100px;
+  max-width: 100%;
+  height: auto;
+  height: 50px;
+  border-radius: 100px;
 }
 .main-container {
-    width: 100%;
-   
-    
+  width: 100%;
 }
 .beginning-about {
-    margin-top: 1rem!important;
-    color: #75C2B0;
-    font-size: 32px;
+  margin-top: 1rem !important;
+  color: #75c2b0;
+  font-size: 32px;
 }
 .about {
-    width: 55%;
-    color: #75C2B0;
-   
-    font-size: 20px;
+  width: 55%;
+  color: #75c2b0;
+
+  font-size: 20px;
 }
 .about img {
-    width: 50%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .what-do {
-    color: #75C2B0;
-    font-size: 32px;
+  color: #75c2b0;
+  font-size: 32px;
 }
 .what-do-we-do {
-    width: 55%;
-    color: #75C2B0;
-   font-size: 20px;
-
+  width: 55%;
+  color: #75c2b0;
+  font-size: 20px;
 }
 
-.container-card{
-    background-color: #FEC069;
+.container-card {
+  background-color: #fec069;
 }
-.card-img{
-    width: 472px;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 30px;
+.card-img {
+  width: 472px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 30px;
 }
-.container-card{
-   width: 55%;
-    
+.container-card {
+  width: 55%;
 }
-.texto-card{
-    color: #ffffff;
+.texto-card {
+  color: #ffffff;
+}
+
+.form {
+  width: 55%;
+  background-color: #197395;
+}
+.form-control {
+  border: 1px solid #f194ad;
+}
+.form-label {
+  color: #fff;
+}
+
+.btns {
+  width: 100%;
+  height: 50px;
+}
+.btn {
+  width: 100%;
+  background-color: #f194ad;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #f194ad;
+  color: #fff;
 }

@@ -98,3 +98,36 @@ body {
   background-color: #f194ad;
   color: #fff;
 }
+
+.duvidas{
+  height: 100vh;
+  background-color: #EFF6F6;
+  margin-top: 55px;
+}
+
+.linha{
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, transparent, #0B9C4D, transparent);  
+    margin-top: 50px;
+}
+  
+h2{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  /* background-color:10px solid #0B9C4D; */
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  }
+
+  

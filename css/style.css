@@ -1,3 +1,15 @@
+:root {
+  --cor-principal:#75C2B0;
+  --cor-secudaria: #DDB7FB;
+  --cor-tercearia: #FEC069;
+  --cor-formulario: #197395;
+  --cor-rosaButton:#F194AD;
+  --cor-branca: #FFF;
+  --cor-verdeLinha: #0B9C4D;
+  --cor-duvidas: #EFF6F6;
+  --fonte-Familia: "Roboto";
+}
+
 body {
   width: 100%;
 }
@@ -5,42 +17,51 @@ body {
 .navbar {
   background-color: #75c2b0;
 }
+
 .nav {
   gap: 1rem;
   color: #fff;
   align-items: flex-end;
   font-size: 20px;
 }
+
 .nav-item {
   cursor: pointer;
 }
+
 .nav-item:hover {
   color: #fec069;
 }
+
 .logo {
   width: 50px;
   height: 50px;
 }
-.logo > img {
+
+.logo>img {
   max-width: 100%;
   height: auto;
   height: 50px;
   border-radius: 100px;
 }
+
 .main-container {
   width: 100%;
 }
+
 .beginning-about {
   margin-top: 1rem !important;
   color: #75c2b0;
   font-size: 32px;
 }
+
 .about {
   width: 55%;
   color: #75c2b0;
 
   font-size: 20px;
 }
+
 .about img {
   width: 50%;
   height: 300px;
@@ -52,6 +73,7 @@ body {
   color: #75c2b0;
   font-size: 32px;
 }
+
 .what-do-we-do {
   width: 55%;
   color: #75c2b0;
@@ -61,15 +83,18 @@ body {
 .container-card {
   background-color: #fec069;
 }
+
 .card-img {
   width: 472px;
   margin-top: 25px;
   margin-left: 25px;
   margin-bottom: 30px;
 }
+
 .container-card {
   width: 55%;
 }
+
 .texto-card {
   color: #ffffff;
 }
@@ -78,9 +103,11 @@ body {
   width: 55%;
   background-color: #197395;
 }
+
 .form-control {
   border: 1px solid #f194ad;
 }
+
 .form-label {
   color: #fff;
 }
@@ -89,45 +116,36 @@ body {
   width: 100%;
   height: 50px;
 }
+
 .btn {
   width: 100%;
   background-color: #f194ad;
   color: #fff;
 }
+
 .btn:hover {
   background-color: #f194ad;
   color: #fff;
 }
 
-.duvidas{
+
+.duvidas {
   height: 100vh;
   background-color: #EFF6F6;
   margin-top: 55px;
 }
 
-.linha{
-    border: 0;
-    height: 5px;
-    background-image: linear-gradient(to right, transparent, #0B9C4D, transparent);  
-    margin-top: 50px;
-}
-  
-h2{
+.duvidas-texto {
+  margin-top: 55px;
+  margin-bottom: 55px;
   display: flex;
   justify-content: center;
   padding-top: 15px;
-  /* background-color:10px solid #0B9C4D; */
 }
 
-.accordion-header {
-  margin-bottom: 0;
+.linha {
+  border: 0;
+  height: 5px;
+  background-color: #0B9C4D;
+  margin-top: 25px;
 }
-
-.accordion-button {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  }
-
-  

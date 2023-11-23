@@ -3,24 +3,49 @@
   --cor-secudaria: #DDB7FB;
   --cor-tercearia: #FEC069;
   --cor-formulario: #197395;
-  --cor-rosaButton:#F194AD;
+  --cor-rosa:#F194AD !important;
   --cor-branca: #FFF;
   --cor-verdeLinha: #0B9C4D;
   --cor-duvidas: #EFF6F6;
   --fonte-Familia: "Roboto";
+  --tamanho-fonte-titulo: 1.5rem;
+  --tamanho-fonte-texto: 1.2rem;
 }
 
-body {
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--cor-rosa);
+  --bs-btn-border-color: var(--cor-rosa);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--primaria);
+  --bs-btn-hover-border-color: var(--cor-rosa);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--cor-rosa);
+  --bs-btn-active-border-color: var(--cor-rosa);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--cor-rosa);
+  --bs-btn-disabled-border-color: var(--cor-rosa);
+}
+
+
+.body {
   width: 100%;
+  background-color: var(--cor-duvidas);
+  
 }
 
+header {
+  background-color: var(--cor-principal);
+
+}
 .navbar {
-  background-color: #75c2b0;
 }
 
 .nav {
   gap: 1rem;
-  color: #fff;
+  color: var(--cor-branca);
   align-items: flex-end;
   font-size: 20px;
 }
@@ -30,7 +55,7 @@ body {
 }
 
 .nav-item:hover {
-  color: #fec069;
+  color: var(--cor-tercearia);
 }
 
 .logo {
@@ -44,20 +69,23 @@ body {
   height: 50px;
   border-radius: 100px;
 }
-
-.main-container {
-  width: 100%;
+.img-fluid {
+  border-radius: 100%!important;
 }
+
+/* .main-container {
+  width: 100%;
+} */
 
 .beginning-about {
   margin-top: 1rem !important;
-  color: #75c2b0;
+  color: var(--cor-formulario);
   font-size: 32px;
 }
 
 .about {
-  width: 55%;
-  color: #75c2b0;
+  /* width: 55%; */
+  color: black;
 
   font-size: 20px;
 }
@@ -70,20 +98,34 @@ body {
 }
 
 .what-do {
-  color: #75c2b0;
   font-size: 32px;
+  color: var(--cor-formulario);
 }
 
 .what-do-we-do {
-  width: 55%;
-  color: #75c2b0;
+  color: black;
+  /* width: 55%; */
   font-size: 20px;
 }
+#visitas{
+  background-color: var(--cor-secudaria);
 
+}
+.container-carosel {
+  width: 100%;
+  height: 500px;
+}
+
+.d-block {
+  width: 90%;
+  height: 450px; 
+}
 .container-card {
   background-color: #fec069;
 }
-
+.carousel-item active {
+  color: black;
+}
 .card-img {
   width: 472px;
   margin-top: 25px;
@@ -91,16 +133,14 @@ body {
   margin-bottom: 30px;
 }
 
-.container-card {
-  width: 55%;
-}
+
 
 .texto-card {
   color: #ffffff;
 }
 
-.form {
-  width: 55%;
+#tellus{
+  
   background-color: #197395;
 }
 
@@ -117,13 +157,14 @@ body {
   height: 50px;
 }
 
-.btn {
+.btn-success {
   width: 100%;
-  background-color: #f194ad;
+  background-color: var(--cor-rosaButton);
+  border: 1px solid var(--cor-rosaButton);
   color: #fff;
 }
 
-.btn:hover {
+.btn-success {
   background-color: #f194ad;
   color: #fff;
 }

@@ -154,20 +154,21 @@ span {
 .btns {
   width: 100%;
   height: 50px;
+  background-color: var(--cor-rosaButton);
+  border: 1px solid var(--cor-rosaButton);
 }
-
+.btns:hover {
+  color: var(--cor-rosaButton);
+}
 .btn-success {
   width: 100%;
   background-color: var(--cor-rosaButton);
   border: 1px solid var(--cor-rosaButton);
   color: #fff;
 }
-
-.btn-success {
-  background-color: #f194ad;
-  color: #fff;
+.btn-success:hover {
+  color: var(--cor-rosaButton);
 }
-
 .duvidas {
   height: 100vh;
   background-color: #eff6f6;

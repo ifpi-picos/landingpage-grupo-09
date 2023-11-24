@@ -1,12 +1,12 @@
 :root {
-  --cor-principal:#75C2B0;
-  --cor-secudaria: #DDB7FB;
-  --cor-tercearia: #FEC069;
+  --cor-principal: #75c2b0;
+  --cor-secudaria: #ddb7fb;
+  --cor-tercearia: #fec069;
   --cor-formulario: #197395;
-  --cor-rosa:#F194AD !important;
-  --cor-branca: #FFF;
-  --cor-verdeLinha: #0B9C4D;
-  --cor-duvidas: #EFF6F6;
+  --cor-rosa: #f194ad !important;
+  --cor-branca: #fff;
+  --cor-verdeLinha: #0b9c4d;
+  --cor-duvidas: #eff6f6;
   --fonte-Familia: "Roboto";
   --tamanho-fonte-titulo: 1.5rem;
   --tamanho-fonte-texto: 1.2rem;
@@ -29,16 +29,13 @@
   --bs-btn-disabled-border-color: var(--cor-rosa);
 }
 
-
 .body {
   width: 100%;
   background-color: var(--cor-duvidas);
-  
 }
 
 header {
   background-color: var(--cor-principal);
-
 }
 .navbar {
 }
@@ -63,14 +60,14 @@ header {
   height: 50px;
 }
 
-.logo>img {
+.logo > img {
   max-width: 100%;
   height: auto;
   height: 50px;
   border-radius: 100px;
 }
 .img-fluid {
-  border-radius: 100%!important;
+  border-radius: 100% !important;
 }
 
 /* .main-container {
@@ -107,9 +104,8 @@ header {
   /* width: 55%; */
   font-size: 20px;
 }
-#visitas{
+#visitas {
   background-color: var(--cor-secudaria);
-
 }
 .container-carosel {
   width: 100%;
@@ -118,7 +114,7 @@ header {
 
 .d-block {
   width: 90%;
-  height: 450px; 
+  height: 450px;
 }
 .container-card {
   background-color: #fec069;
@@ -133,15 +129,18 @@ header {
   margin-bottom: 30px;
 }
 
-
-
 .texto-card {
   color: #ffffff;
 }
 
-#tellus{
-  
+#tellus {
   background-color: #197395;
+}
+h1 {
+  color: var(--cor-rosa);
+}
+span {
+  color: var(--cor-branca);
 }
 
 .form-control {
@@ -169,10 +168,9 @@ header {
   color: #fff;
 }
 
-
 .duvidas {
   height: 100vh;
-  background-color: #EFF6F6;
+  background-color: #eff6f6;
   margin-top: 55px;
 }
 
@@ -187,6 +185,6 @@ header {
 .linha {
   border: 0;
   height: 5px;
-  background-color: #0B9C4D;
+  background-color: #0b9c4d;
   margin-top: 25px;
 }

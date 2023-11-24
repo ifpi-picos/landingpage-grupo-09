@@ -189,3 +189,16 @@ span {
   background-color: #0b9c4d;
   margin-top: 25px;
 }
+
+footer {
+  background-color: var(--cor-principal);
+  color: var(--cor-branca);
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-repositorio {
+  color: var(--cor-branca);
+}

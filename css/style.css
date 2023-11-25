@@ -31,7 +31,7 @@
 
 .body {
   width: 100%;
-  background-color: var(--cor-duvidas);
+  background-color: var(--cor-branca);
 }
 
 header {
@@ -97,7 +97,7 @@ header {
   font-size: var(--tamanho-fonte-titulo);
   color: var(--cor-formulario);
 }
-
+/* vista */
 .what-do-we-do {
   color: black;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -105,10 +105,10 @@ header {
 }
 #visitas {
   background-color: var(--cor-secudaria);
-  height: 90vh;
+  
 }
 .visit-text {
-  font-size: var(--tamanho-fonte-texto);
+  font-size: 18px;
   font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .container-carosel {
@@ -133,7 +133,7 @@ header {
   background-color: var(--cor-tercearia);
 }
 .card-img {
-  width: 35%;
+  width: 50%;
   margin-top: 25px;
   margin-left: 25px;
   margin-bottom: 30px;
@@ -143,8 +143,14 @@ header {
 .texto-card {
   color: #ffffff;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
 }
-
+.duvidad-t {
+  width: 100%;
+}
+.itens {
+  width: 100%;
+}
 #tellus {
   background-color: #197395;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -187,6 +193,7 @@ footer {
   background-color: var(--cor-principal);
   color: var(--cor-branca);
   height: 175px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

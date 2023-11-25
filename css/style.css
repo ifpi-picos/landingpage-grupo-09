@@ -135,6 +135,7 @@ header {
   margin-top: 25px;
   margin-left: 25px;
   margin-bottom: 30px;
+  gap: 10px;
 }
 
 .texto-card {
@@ -177,8 +178,21 @@ span {
 .btn-success:hover {
   color: var(--cor-rosaButton);
 }
+
+footer {
+  background-color: var(--cor-principal);
+  color: var(--cor-branca);
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-repositorio {
+  color: var(--cor-branca);
+}
+
 .duvidas {
-  height: 100vh;
   background-color: #eff6f6;
   margin-top: 55px;
 }
@@ -196,17 +210,13 @@ span {
   height: 5px;
   background-color: #0b9c4d;
   margin-top: 25px;
+  opacity: 0.99;
+  width: 70rem;
 }
 
-footer {
-  background-color: var(--cor-principal);
-  color: var(--cor-branca);
-  height: 175px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.accordion-item{
+  margin: 10px;
+  width: 100%;
 }
 
-.link-repositorio {
-  color: var(--cor-branca);
-}

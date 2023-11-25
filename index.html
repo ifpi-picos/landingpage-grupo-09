@@ -107,17 +107,14 @@
           </div>
       </section>
   
-      <!-- projeto inicio-->
-      <div class="about mx-auto d-flex flex-row">
-        <span class="beginning-about">Projetos</span> <br />
+      <div class="about text-center">
+        <span class="beginning-about text-center"><br />Projetos</span> <br />
       </div>
-      <div
-        class="container-card mx-auto d-flex justify-content-center flex-column align-items-center col-12"
-      >
-        <!-- <div class="card-img d-flex justify-content-center align-items-between flex-row">
-        <img src="fotos/projeto-vozes" class="card-img-top img-fluid col-6" alt="Vozes contra o assédio" />
-        <img src="fotos/projeto" class="card-img-top img-fluid col-6" alt="Vozes contra o assédio" />
-      </div> -->
+      <div class="container-card mx-auto d-flex justify-content-center flex-column align-items-center col-12">
+        <div class="card-img d-flex justify-content-center align-items-between flex-row " id="imagens">
+          <img src="fotos/projeto-vozes.jpeg" class="card-img-top py-5  col-5 img-fluid" alt="Vozes contra o assédio" />
+          <img src="fotos/projeto-assedio.jpeg" class="card-img-top  py-5 img-fluid alt="Vozes contra o assédio" />
+        </div>
         <div class="texto-card">
           <p class="text-center">
             Sabemos que o assédio sexual é uma questão séria e que infelizmente
@@ -128,7 +125,6 @@
           </p>
         </div>
       </div>
-      <!-- fim -->
 
       <!-- formulario inicio -->
 
@@ -187,106 +183,98 @@
       <!--duvidas-->
       <div class="duvidas">
         <hr class="linha" />
-        <h2 class="duvidas-texto">Dúvidas Frequentes</h2>
+      </div>
+      <h2 class="duvidas-texto">Dúvidas Frequentes</h2>
+      <!--accordeao-container-->
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Quem pode Participar?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>O projeto de extensão Incubadora de Projetos Sociais Social é aberto à participação de
+                    qualquer
+                    membro das comunidades de Picos e macrorregião que tenha interesse em contribuir para o
+                    desenvolvimento social. Isso inclui moradores, líderes comunitários, estudantes, professores e
+                    outros
+                    profissionais que desejam colaborar com projetos sociais.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Qual a duração do Projeto?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong> A duração do projeto é limitada, e pode variar de acordo com o escopo e objetivo de cada
+                    iniciativa específica. Alguns projetos podem ter curta duração, como workshops ou ações pontuais,
+                    enquanto outros podem ser mais longos, como programas de capacitação ou acompanhamento de
+                    comunidades.
+                    A definição da duração é feita de acordo com as necessidades e metas de cada projeto.
+                  </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Como minha Comunidade pode ser Comtemplada?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Para que uma comunidade seja contemplada pelo projeto de extensão Incubadora Social, é
+                    necessário que alguns critérios sejam considerados. Primeiramente, é fundamental que a comunidade
+                    esteja enfrentando problemas sociais, tais como vulnerabilidade socioeconômica, falta de acesso a
+                    serviços básicos, desigualdade de oportunidades, entre outros. Esses problemas devem ser
+                    identificados
+                    e analisados de maneira criteriosa, a fim de compreender suas causas e possíveis soluções. Além
+                    disso,
+                    é importante que a comunidade demonstre interesse e engajamento na resolução desses problemas. A
+                    participação ativa dos moradores, líderes comunitários e demais envolvidos é essencial para o
+                    sucesso
+                    do projeto. Essa autonomia e comprometimento são indicadores de que a comunidade está disposta a se
+                    envolver e colaborar para a transformação social.
+                  </strong>
+                </div>
+              </div>
+            </div>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Accordion Item #1
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Accordion Item #2
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Como funciona?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>O projeto de extensão do IFPI Campus Picos Incubadora de Projetos Sociais busca identificar
+                    demandas sociais das comunidades locisl e desenvolver projetos para atendê-las. Isso pode envolver a
+                    realização de pesquisas, levantamento de necessidades, elaboração de propostas, captação de
+                    recursos,
+                    execução das atividades e avaliação dos resultados. O projeto funciona por meio da participação dos
+                    integrantes, que se organizam em equipes multidisciplinares para desenvolver as ações propostas. O
+                    Instituto Federal Campus Picos atua como facilitador e apoiador das iniciativas. O objetivo final é
+                    promover o desenvolvimento social e o bem-estar das comunidades contempladas pelo projeto.
+                  </strong>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!---->
       </div>
-      <!--duvidas fim-->
 
       <footer class="container-fluid">
         <div class="container">

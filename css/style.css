@@ -133,7 +133,7 @@ header {
   background-color: var(--cor-tercearia);
 }
 .card-img {
-  width: 472px;
+  width: 35%;
   margin-top: 25px;
   margin-left: 25px;
   margin-bottom: 30px;

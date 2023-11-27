@@ -67,10 +67,12 @@ header {
   height: 50px;
   border-radius: 100px;
 }
+
 .logo-img {
   border-radius: 100% !important;
   width: 50%;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   
@@ -87,7 +89,7 @@ header {
 }
 
 .about {
-  /* width: 55%; */
+  width: 100%;
   color: black;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: var(--tamanho-fonte-texto)

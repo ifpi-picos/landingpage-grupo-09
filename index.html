@@ -1,475 +1,350 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Incubadora de Projetos</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="/fotos/logo.jpeg">
-  </head>
 
-  <body class="body mx-auto">
-    <!-- header inicio -->
-    <header class="container-fluid">
-      <nav
-        class="navbar container d-flex flex-row justify-content-bettween "
-      >
-        <div class="logo bd-highlight">
-          <img src="fotos/logo.jpeg" alt="logo" />
-        </div>
-        <ul class="nav nav-pills d-flex align-items-xl-end">
-          <li class="nav-item">
-            <a href="#sobre" class="nav-item text-decoration-none">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a href="#oquefazemos" class="nav-item text-decoration-none"
-              >O que fazemos</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#visitas" class="nav-item text-decoration-none">Visitas</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projetos" class="nav-item text-decoration-none"
-              >Projetos</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Incubadora de Projetos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" href="/fotos/logo.jpeg">
+</head>
 
-    <!-- main inicio -->
-    <main>
-      <section class="py-5">
-        <div class="container">
-          <div class="about container" id="sobre">
-            <div class="row align-items-center d-flex">
-              <div class="col-md-6 mb-md-0 mb-3 ">
-                <p class="text-justify ">
-                  <span class="beginning-about fw-medium">Sobre</span> <br />
-                  A Incubadora Social foi idealizada com a intenção de contribuir com
-                  a transformação da realidade social em nossa comunidade. Acreditamos
-                  que a produção de projetos sociais pode ser uma ferramenta poderosa
-                  para promover mudanças positivas e permitir o desenvolvimento de
-                  ações concretas que beneficiem a população.
-                </p>
-              </div>
-              <div class="imagem col-md-6 mt-md-0 mt-3  ">
-                <img class="logo-img img-fluid py-3" src="fotos/logo.jpeg" alt="logo" />
-              </div>
-            </div>
-          </div>
-          <div
-            class="what-do-we-do container d-flex flex-column justify-content-center"
-            id="oquefazemos"
-          >
-            <h1 class="what-do d-flex fw-medium">O que fazemos</h1>
-            <p class="text-justify">
-              A nossa metodologia de trabalho consiste em realizar um diagnóstico
-              da realidade local, identificando as principais demandas e
-              necessidades da comunidade. A partir disso, desenvolvemos projetos
-              que visam atender a essas demandas de forma eficiente e sustentável.
-            </p>
-            <p class="text-justify">
-              Acreditamos que o nosso projeto pode ser uma grande contribuição
-              para a melhoria da qualidade de vida das pessoas em nosso entorno.
-              Queremos ser agentes de transformação e promover o empoderamento da
-              comunidade, promovendo a inclusão social e a sustentabilidade.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--Visitas-->
-      <section id="visitas" class="container-fluid py-3">
-          <div class="container">
-          <span class="visit-title container my-5 fw-medium ">Visitas</span>
-          <div class="container ">
-          <div class="container-carosel">
-            <div class="carousel slide" id="carouselExample">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                  src="./fotos/ifpi.jpeg"
-                  class="d-block mx-auto img-fluid my-5"
-                  alt="imagem"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                  src="./fotos/ifpi2.jpeg"
-                  class="d-block mx-auto img-fluid my-5"
-                  alt="imagem"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                  src="./fotos/lugar qualquer.jpeg"
-                  class="d-block mx-auto img-fluid my-5"
-                  alt="imagem"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                  src="./fotos/morada do sol.jpeg"
-                  class="d-block mx-auto img-fluid my-5"
-                  alt="imagem"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                  src="./fotos/morada do sol2.jpeg"
-                  class="d-block mx-auto img-fluid my-5"
-                  alt="imagem"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                  src="./fotos/morada.jpeg"
-                  class="d-block mx-auto img-fluid my-5"
-                  alt="imagem"
-                  />
-                </div>
-              </div>
-              <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-              >
-              <span
-              class="carousel-control-prev-icon"
-              aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-            <!-- visit-text -->
-            <p class="visit-text text-justify">
-              As imagens acima mostram um pouco das nossas visitas, que têm como
-              objetivo compreender as demandas e necessidades das comunidades.
-              Após as visitas, a equipe do projeto realiza análises mais
-              aprofundadas para identificar as causas sociais subjacentes às
-              necessidades e demandas observadas. Essa avaliação abrange diversos
-              fatores, como condições econômicas, educação, acesso a serviços de
-              saúde, habitação, emprego e outros determinantes sociais. Com base
-              nessas análises das causas sociais, o próximo passo consiste no
-              desenvolvimento de projetos que abordem essas questões de maneira
-              eficaz e sustentável. Esses projetos são elaborados considerando as
-              particularidades de cada comunidade, visando não apenas solucionar
-              as necessidades imediatas, mas também promover um impacto positivo.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!--visitas fim-->
-
-      <div class="about text-center  "id="projetos">
-        <div class="about container d-flex flex-row align-items-center"  >
-        </div>
+<body class="body mx-auto">
+  <!-- header inicio -->
+  <header class="container-fluid">
+    <nav class="navbar container d-flex flex-row justify-content-bettween ">
+      <div class="logo bd-highlight">
+        <img src="fotos/logo.jpeg" alt="logo" />
       </div>
-      <div class="container-card  d-flex  flex-column align-items-center col-12 py-3">
-        <div class="container">
-         <span class="beginning-about mx-5 fw-medium " id="projeto-h1">Projetos</span> <br />
+      <ul class="nav nav-pills d-flex align-items-xl-end">
+        <li class="nav-item">
+          <a href="#sobre" class="nav-item text-decoration-none">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a href="#oquefazemos" class="nav-item text-decoration-none">O que fazemos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#visitas" class="nav-item text-decoration-none">Visitas</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projetos" class="nav-item text-decoration-none">Projetos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header -->
 
-          <div class="card-img d-flex align-items-center flex-row py-3 "id="imagens" >
-            <img src="fotos/projeto-vozes.jpeg" class="card-img-top   img-fluid "
-              alt="Vozes contra o assédio"
-            />
-            <img src="fotos/projeto-assedio.jpeg" class="card-img-top  img-fluid " 
-             alt="Vozes contra o assédio" />
-          </div>
-          <div class="texto-card">
-            <p class="text-justify text-center">
-              Sabemos que o assédio sexual é uma questão séria e que infelizmente
-              está presente em diversos ambientes, inclusive no ambiente
-              acadêmico. Por isso, nos sentimos motivados a tomar uma postura
-              ativa e fazer a nossa parte para mudar essa realidade. E contamos
-              com você para isso!!
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- formulario inicio -->
-
-      <section id="tellus" class="container-fluid py-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h1>
-                <span>Entre</span><br />
-                em contato !
-              </h1>
-              <br />
-              <p style="color: #fff; font-size: 25px">
-                Através do nosso formulário !
+  <!-- main inicio -->
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="about container" id="sobre">
+          <div class="row align-items-center d-flex">
+            <div class="col-md-7 mb-md-0">
+              <p class="text-justify ">
+                <span class="beginning-about fw-medium">Sobre</span> <br />
+                A Incubadora Social foi idealizada com a intenção de contribuir com
+                a transformação da realidade social em nossa comunidade. Acreditamos
+                que a produção de projetos sociais pode ser uma ferramenta poderosa
+                para promover mudanças positivas e permitir o desenvolvimento de
+                ações concretas que beneficiem a população.
               </p>
             </div>
-            <div class="col-md-8">
-              <div class="form">
-                <form
-                  action=""
-                  method=""
-                  class="justify-content-center align-items-center"
-                >
-                  <div class="row">
-                    <div class="form-group col-md-6">
-                      <label class="form-label">Nome Completo</label>
-                      <input class="form-control" type="text" name="nome" />
-                    </div>
-                    <div class="form-group col-md-6">
-                      <label class="form-label">Telefone</label>
-                      <input class="form-control" type="text" name="telefone" />
-                    </div>
+            <div class="imagem col-md-5 mt-md-0 mt-3  ">
+              <img class="logo-img img-fluid py-3 mx-auto" src="fotos/logo.jpeg" alt="logo" />
+            </div>
+          </div>
+        </div>
+        <div class="what-do-we-do container d-flex flex-column justify-content-center" id="oquefazemos">
+          <h1 class="what-do d-flex fw-medium">O que fazemos</h1>
+          <p class="text-justify">
+            A nossa metodologia de trabalho consiste em realizar um diagnóstico
+            da realidade local, identificando as principais demandas e
+            necessidades da comunidade. A partir disso, desenvolvemos projetos
+            que visam atender a essas demandas de forma eficiente e sustentável.
+          </p>
+          <p class="text-justify">
+            Acreditamos que o nosso projeto pode ser uma grande contribuição
+            para a melhoria da qualidade de vida das pessoas em nosso entorno.
+            Queremos ser agentes de transformação e promover o empoderamento da
+            comunidade, promovendo a inclusão social e a sustentabilidade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Visitas-->
+    <section id="visitas" class="container-fluid py-5">
+      <div class="container">
+        <span class="visit-title container my-5 fw-medium ">Visitas</span>
+      </div>
+      <div class="container ">
+        <div class="container-carosel">
+          <div class="carousel slide" id="carouselExample">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./fotos/ifpi.jpeg" class="d-block mx-auto img-fluid my-5" alt="imagem" />
+              </div>
+              <div class="carousel-item">
+                <img src="./fotos/ifpi2.jpeg" class="d-block mx-auto img-fluid my-5" alt="imagem" />
+              </div>
+              <div class="carousel-item">
+                <img src="./fotos/lugar qualquer.jpeg" class="d-block mx-auto img-fluid my-5" alt="imagem" />
+              </div>
+              <div class="carousel-item">
+                <img src="./fotos/morada do sol.jpeg" class="d-block mx-auto img-fluid my-5" alt="imagem" />
+              </div>
+              <div class="carousel-item">
+                <img src="./fotos/morada do sol2.jpeg" class="d-block mx-auto img-fluid my-5" alt="imagem" />
+              </div>
+              <div class="carousel-item">
+                <img src="./fotos/morada.jpeg" class="d-block mx-auto img-fluid my-5" alt="imagem" />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- visit-text -->
+        <p class="visit-text text-justify">
+          As imagens acima mostram um pouco das nossas visitas, que têm como
+          objetivo compreender as demandas e necessidades das comunidades.
+          Após as visitas, a equipe do projeto realiza análises mais
+          aprofundadas para identificar as causas sociais subjacentes às
+          necessidades e demandas observadas. Essa avaliação abrange diversos
+          fatores, como condições econômicas, educação, acesso a serviços de
+          saúde, habitação, emprego e outros determinantes sociais. Com base
+          nessas análises das causas sociais, o próximo passo consiste no
+          desenvolvimento de projetos que abordem essas questões de maneira
+          eficaz e sustentável. Esses projetos são elaborados considerando as
+          particularidades de cada comunidade, visando não apenas solucionar
+          as necessidades imediatas, mas também promover um impacto positivo.
+        </p>
+      </div>
+
+    </section>
+    <!--visitas fim-->
+
+    <div class="about text-center  " id="projetos">
+      <div class="about container d-flex flex-row align-items-center">
+      </div>
+    </div>
+    <div class="container-card  d-flex  flex-column align-items-center col-12 py-5">
+      <div class="container">
+        <span class="beginning-about mx-5 fw-medium " id="projeto-h1">Projetos</span> <br />
+
+        <div class="card-img d-flex align-items-center flex-row py-3 " id="imagens">
+          <img src="fotos/projeto-vozes.jpeg" class="card-img-top   img-fluid " alt="Vozes contra o assédio" />
+          <img src="fotos/projeto-assedio.jpeg" class="card-img-top  img-fluid " alt="Vozes contra o assédio" />
+        </div>
+        <div class="texto-card">
+          <p class="text-justify text-center">
+            Sabemos que o assédio sexual é uma questão séria e que infelizmente
+            está presente em diversos ambientes, inclusive no ambiente
+            acadêmico. Por isso, nos sentimos motivados a tomar uma postura
+            ativa e fazer a nossa parte para mudar essa realidade. E contamos
+            com você para isso!!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- formulario inicio -->
+
+    <section id="tellus" class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1>
+              <span>Entre</span><br />
+              em contato !
+            </h1>
+            <br />
+            <p style="color: #fff; font-size: 25px">
+              Através do nosso formulário !
+            </p>
+          </div>
+          <div class="col-md-8">
+            <div class="form">
+              <form action="" method="" class="justify-content-center align-items-center">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label class="form-label">Nome Completo</label>
+                    <input class="form-control" type="text" name="nome" />
                   </div>
-
-                  <label class="form-label">Email</label>
-                  <input class="form-control" type="email" name="email" />
-
-                  <label class="form-label">Motivo de interesse</label>
-                  <input class="form-control" type="text" name="f_motivo" />
-
-                  <div class="form-group col-md-12">
-                    <button
-                      type="submit"
-                      class="btns d-flex justify-content-center align-items-center my-3"
-                    >
-                      <a class="btn btn-primary w-100"> Enviar </a>
-                    </button>
+                  <div class="form-group col-md-6">
+                    <label class="form-label">Telefone</label>
+                    <input class="form-control" type="text" name="telefone" />
                   </div>
-                </form>
+                </div>
+
+                <label class="form-label">Email</label>
+                <input class="form-control" type="email" name="email" />
+
+                <label class="form-label">Motivo de interesse</label>
+                <input class="form-control" type="text" name="f_motivo" />
+
+                <div class="form-group col-md-12">
+                  <button type="submit" class="btns d-flex justify-content-center align-items-center my-3">
+                    <a class="btn btn-primary w-100"> Enviar </a>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--duvidas-->
+    <section class="duvidas-t pb-5">
+
+      <div class="duvidas">
+        <hr class="linha" />
+      </div>
+      <h2 class="duvidas-texto">Dúvidas Frequentes</h2>
+      <!--accordeao-container-->
+      <div class="itens row">
+        <div class="col-md-8 mx-auto">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Quem pode Participar?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>O projeto de extensão Incubadora de Projetos Sociais Social
+                    é aberto à participação de qualquer membro das comunidades
+                    de Picos e macrorregião que tenha interesse em contribuir
+                    para o desenvolvimento social. Isso inclui moradores,
+                    líderes comunitários, estudantes, professores e outros
+                    profissionais que desejam colaborar com projetos
+                    sociais.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Qual a duração do Projeto?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    A duração do projeto é limitada, e pode variar de acordo com
+                    o escopo e objetivo de cada iniciativa específica. Alguns
+                    projetos podem ter curta duração, como workshops ou ações
+                    pontuais, enquanto outros podem ser mais longos, como
+                    programas de capacitação ou acompanhamento de comunidades. A
+                    definição da duração é feita de acordo com as necessidades e
+                    metas de cada projeto.
+                  </strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Como minha Comunidade pode ser Comtemplada?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Para que uma comunidade seja contemplada pelo projeto de
+                    extensão Incubadora Social, é necessário que alguns
+                    critérios sejam considerados. Primeiramente, é fundamental
+                    que a comunidade esteja enfrentando problemas sociais, tais
+                    como vulnerabilidade socioeconômica, falta de acesso a
+                    serviços básicos, desigualdade de oportunidades, entre
+                    outros. Esses problemas devem ser identificados e analisados
+                    de maneira criteriosa, a fim de compreender suas causas e
+                    possíveis soluções. Além disso, é importante que a
+                    comunidade demonstre interesse e engajamento na resolução
+                    desses problemas. A participação ativa dos moradores,
+                    líderes comunitários e demais envolvidos é essencial para o
+                    sucesso do projeto. Essa autonomia e comprometimento são
+                    indicadores de que a comunidade está disposta a se envolver
+                    e colaborar para a transformação social.
+                  </strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Como funciona?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>O projeto de extensão do IFPI Campus Picos Incubadora de
+                    Projetos Sociais busca identificar demandas sociais das
+                    comunidades locisl e desenvolver projetos para atendê-las.
+                    Isso pode envolver a realização de pesquisas, levantamento
+                    de necessidades, elaboração de propostas, captação de
+                    recursos, execução das atividades e avaliação dos
+                    resultados. O projeto funciona por meio da participação dos
+                    integrantes, que se organizam em equipes multidisciplinares
+                    para desenvolver as ações propostas. O Instituto Federal
+                    Campus Picos atua como facilitador e apoiador das
+                    iniciativas. O objetivo final é promover o desenvolvimento
+                    social e o bem-estar das comunidades contempladas pelo
+                    projeto.
+                  </strong>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--duvidas-->
-      <section  class="duvidas-t">
-
-        <div class="duvidas">
-          <hr class="linha" />
-        </div>
-        <h2 class="duvidas-texto">Dúvidas Frequentes</h2>
-        <!--accordeao-container-->
-        <div class="itens row">
-          <div class="col-md-8 mx-auto">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    Quem pode Participar?
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong
-                      >O projeto de extensão Incubadora de Projetos Sociais Social
-                      é aberto à participação de qualquer membro das comunidades
-                      de Picos e macrorregião que tenha interesse em contribuir
-                      para o desenvolvimento social. Isso inclui moradores,
-                      líderes comunitários, estudantes, professores e outros
-                      profissionais que desejam colaborar com projetos
-                      sociais.</strong
-                    >
-                  </div>
-                </div>
+    <footer class="container-fluid py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <h4 class="text-center mb-4">Organização:</h4>
+            <div class="row ">
+              <div class="col-6">
+                <img src="fotos/logo-ifpi.png" alt="logo marca do ifpi" class="img-fluid w-50 float-end" />
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    Qual a duração do Projeto?
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong>
-                      A duração do projeto é limitada, e pode variar de acordo com
-                      o escopo e objetivo de cada iniciativa específica. Alguns
-                      projetos podem ter curta duração, como workshops ou ações
-                      pontuais, enquanto outros podem ser mais longos, como
-                      programas de capacitação ou acompanhamento de comunidades. A
-                      definição da duração é feita de acordo com as necessidades e
-                      metas de cada projeto.
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    Como minha Comunidade pode ser Comtemplada?
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong
-                      >Para que uma comunidade seja contemplada pelo projeto de
-                      extensão Incubadora Social, é necessário que alguns
-                      critérios sejam considerados. Primeiramente, é fundamental
-                      que a comunidade esteja enfrentando problemas sociais, tais
-                      como vulnerabilidade socioeconômica, falta de acesso a
-                      serviços básicos, desigualdade de oportunidades, entre
-                      outros. Esses problemas devem ser identificados e analisados
-                      de maneira criteriosa, a fim de compreender suas causas e
-                      possíveis soluções. Além disso, é importante que a
-                      comunidade demonstre interesse e engajamento na resolução
-                      desses problemas. A participação ativa dos moradores,
-                      líderes comunitários e demais envolvidos é essencial para o
-                      sucesso do projeto. Essa autonomia e comprometimento são
-                      indicadores de que a comunidade está disposta a se envolver
-                      e colaborar para a transformação social.
-                    </strong>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
-                  >
-                    Como funciona?
-                  </button>
-                </h2>
-                <div
-                  id="collapseFour"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <strong
-                      >O projeto de extensão do IFPI Campus Picos Incubadora de
-                      Projetos Sociais busca identificar demandas sociais das
-                      comunidades locisl e desenvolver projetos para atendê-las.
-                      Isso pode envolver a realização de pesquisas, levantamento
-                      de necessidades, elaboração de propostas, captação de
-                      recursos, execução das atividades e avaliação dos
-                      resultados. O projeto funciona por meio da participação dos
-                      integrantes, que se organizam em equipes multidisciplinares
-                      para desenvolver as ações propostas. O Instituto Federal
-                      Campus Picos atua como facilitador e apoiador das
-                      iniciativas. O objetivo final é promover o desenvolvimento
-                      social e o bem-estar das comunidades contempladas pelo
-                      projeto.
-                    </strong>
-                  </div>
-                </div>
+              <div class="col-6">
+                <img src="fotos/logo-mambee.png" alt="logo marca da mambee" class="img-fluid w-50 float-start" />
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <footer class="container-fluid py-5">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-4">
-              <p1>Organização:</p1>
-              <div class="row">
-                <div class="col-6">
-                  <img
-                    src="fotos/logo-ifpi.png"
-                    alt="logo marca do ifpi"
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="col-6">
-                  <img
-                    src="fotos/logo-mambee.png"
-                    alt="logo marca da mambee"
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <a
-                class="instagram"
-                target="_blank"
-                href="https://www.instagram.com/incubadora.social/"
-              >
-                <img
-                  src="fotos/IMG_20231124_205638-removebg-preview.png"
-                  alt="Instagram-Incon"
-                  style="width: 40px"
-              /></a>
-              <span>Visite o nosso instagram </span> <br /><br />
-              <a
-                class="link-repositorio"
-                href="https://github.com/ifpi-picos/landingpage-grupo-09"
-                >©2023 IFPI/MAMBE.Todos os direitos reservados.</a
-              >
-            </div>
+          <div class="col-md-8">
+            <a class="instagram" target="_blank" href="https://www.instagram.com/incubadora.social/">
+              <img src="fotos/IMG_20231124_205638-removebg-preview.png" alt="Instagram-Incon" style="width: 40px" /></a>
+            <span>Visite o nosso instagram </span> <br /><br />
+            <a class="link-repositorio" href="https://github.com/ifpi-picos/landingpage-grupo-09">©2023 IFPI/MAMBE.Todos
+              os direitos reservados.</a>
           </div>
         </div>
-      </footer>
-    </main>
-    <!-- main fim -->
+      </div>
+    </footer>
+  </main>
+  <!-- main fim -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

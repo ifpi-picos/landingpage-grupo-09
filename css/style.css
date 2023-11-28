@@ -259,12 +259,12 @@ footer {
 }
 
 @media(max-width: 768px) {
-  /* .card-img {
+  .card-img {
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-  } */
+  }
 
   .d-block {
     width: 100%;
